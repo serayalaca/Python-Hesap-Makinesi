@@ -15,8 +15,8 @@ class HesapMakinesi:
         else:
             return "Hata: Sıfıra bölünemez!"
 
-sayi1 = float(input("Birinci sayıyı girin: "))
-sayi2 = float(input("İkinci sayıyı girin: "))
+sayi1 = input("Birinci sayıyı girin: "))
+sayi2 = input("İkinci sayıyı girin: "))
 islem = input("İşlem seçin (+, -, *, /): ")
 
 
@@ -32,4 +32,5 @@ else:
     sonuc = "Geçersiz işlem!"
 
 print("------------------")
+
 print("İşlem Sonucu:", sonuc)
